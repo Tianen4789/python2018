@@ -1,0 +1,32 @@
+分布式版本控制系统 - 去中心化
+
+Git服务器
+
+- 代码托管（Github、Gitee、CODING）
+- 私服（GitLab）
+
+git config global user.name "jackfrued"
+
+git config global user.email "jackfrued@126.com"
+
+git clone <url> [name] - 克隆项目
+
+git add . - 将更改纳入暂存区(缓存区)
+
+git status - 查看暂存区状态
+
+git checkout -- <file> - 从暂存区恢复工作区
+
+git commit -m '提交的原因' - 提交(纳入本地版本控制)
+
+git log - 查看日志
+
+git reset --hard <hash>
+
+git reset --hard HEAD^ - 回到历史版本
+
+git reflog - 查看日志（包括未来版本）
+
+git push - 推到服务器（上传修改）
+
+git pull - 从服务器拉取（下载更新）
